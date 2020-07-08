@@ -1,0 +1,34 @@
+#WELCOME TO JotNoteTM HELP#
+==================================
+
+EVENTS
+------
+Definition of "Due Event" -> Task name + End Time + End Data + Details 
+Definition of "Scheduled Event" -> Task name + Start Time + End TIme + Start Date + End Date + Details
+
+HOW TO ADD TASKS
+----------------
+add [Task Name] -due [End TIme] [End Date]	
+add [Task Name] -due [End Time] [End Date] [End Month]
+add [Task Name] -due [End Time] [End Date] [End Month] [End Year]
+add [Task Name] -due [End Time] [End Date] [End Month] [End Year] -d [Details]
+
+add [Task Name] -from [Start Time] [End Time] [Start Date] -d [Details]
+add [Task Name] -from [Start Time] [End Time] [Start Date] [Start Month] -d [Details]
+add [Task Name] -from [Start Time] [End Time] [Start Date] [Start Month] [Start Year] -d [Details]
+add [Task Name] -from [Start Time] [End Time] [Start Date] [Start Month] [Start Year] -d [Details] 
+add [Task Name] -from [Start Time] [End Time] [Start Date] [Start Month] [Start Year] [End Date] [End Month] [End Year] -d [Details]
+
+How to REMOVE TASKs
+-------------------
+rmv [Task Name] 
+
+How to MODIFY TASKS
+-------------------
+
+NOTE: [Task Name] is the unique identifier, hence correctness is important!
+
+mod [Task Name] -due [End Time] [End Date]
+mod [Task Name] -from [Start Time] [End Time] [Start Date] [Start Month] [Start Year] [End Date] [End Month] [End Year] -d [Details]
+
+
