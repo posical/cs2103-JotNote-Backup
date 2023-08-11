@@ -2,7 +2,6 @@
  *  CS2103 Special Semester 1 Main Project
  *  Project Group C1
  *
- *  Source File Author(s): Hassan Ali Askari
  *  File:   TextUI.h
  *
  *
